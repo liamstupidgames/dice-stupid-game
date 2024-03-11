@@ -24,6 +24,7 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-family: 'Indie Flower', cursive;
 }
 
 h1 {
@@ -42,12 +43,38 @@ h1:hover {
     text-align: center;
     font-size: 3rem;
     color: #4ECCA3;
-    font-family: 'Indie Flower', cursive;
+    
 }
 
 .game-info {
     text-align: center;
     font-size: 3rem;
     color: white;
-    font-family: 'Indie Flower', cursive;
+    
+}
+
+.statistics-div {
+    background-color: #1b1b20;
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 50px 100px;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 150px;
+}
+
+.pw {
+    
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+
+}
+
+.pwn {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
 }

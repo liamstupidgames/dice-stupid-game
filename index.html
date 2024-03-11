@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
-    <title>the dice game</title>
+    <link rel="icon" href="./assets/web/icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./src/script.js" defer></script>
+    <title>stupid dice game</title>
 </head>
 <body>
     
@@ -17,13 +18,25 @@
             <h2 class="player text" id = "player-1">Player 1</h2>
             <h2 class="player text" id = "player-2">Player 2</h2>
 
-            <img src="./images/dice6.png" alt="" height="300" width="300" id="player-1-dice" class="dice">
-            <img src="./images/dice6.png" alt="" height="300" width="300" id="player-2-dice" class="dice">
+            <img src="./assets/images/dice6.png" alt="" height="300" width="300" id="player-1-dice" class="dice">
+            <img src="./assets/images/dice6.png" alt="" height="300" width="300" id="player-2-dice" class="dice">
         </div>
         
         <h2 class="game-info text"></h2>
 
+        <div class="statistics-div">
+            <h2 id="pwt1"class="text pw">Player 1</h2>
+            <h2 id="pwt2"class="text pw">Player 2</h2>
+            <h2 id="pwt3"class="text pw">Tie</h2>
+
+            <h2 id="p1w" class="text pwn">0</h2>
+            <h2 id="p2w" class="text pwn">0</h2>
+            <h2 id="p3w" class="text pwn">0</h2>
+        </div>
+
     </div>
+
+    
 
 </body>
 </html>
